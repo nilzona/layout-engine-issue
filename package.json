@@ -1,0 +1,23 @@
+{
+  "name": "layout-engine-issue",
+  "description": "showing an issue with single-spa layout engine ",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd packages/container && yarn start\" \"cd packages/navbar && yarn start --port 8500\" \"cd packages/view-react && yarn start --port 8501\" \"cd packages/view-svelte && yarn start\"",
+    "build": "concurrently \"cd packages/container && yarn build\" \"cd packages/navbar && yarn build\" \"cd packages/view-react && yarn build\" \"cd packages/view-svelte && yarn build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilzona/layout-engine-issue.git"
+  },
+  "keywords": [],
+  "author": "Anders Nilsson",
+  "license": "ISC",
+  "homepage": "https://github.com/nilzona/layout-engine-issue#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
