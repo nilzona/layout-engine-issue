@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently \"cd packages/container && yarn start\" \"cd packages/navbar && yarn start --port 8500\" \"cd packages/view-react && yarn start --port 8501\" \"cd packages/view-svelte && yarn start\"",
+    "start:no-issue": "concurrently \"cd packages/container-no-issue && yarn start\" \"cd packages/navbar && yarn start --port 8500\" \"cd packages/view-react && yarn start --port 8501\" \"cd packages/view-svelte && yarn start\"",
     "build": "concurrently \"cd packages/container && yarn build\" \"cd packages/navbar && yarn build\" \"cd packages/view-react && yarn build\" \"cd packages/view-svelte && yarn build\""
   },
   "repository": {
