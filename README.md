@@ -1,6 +1,6 @@
 # THIS ISSUE HAS BEEN FIXED
 
-in `single-spa-layout@v1.5.2`
+in `single-spa-layout@v1.5.2` https://github.com/single-spa/single-spa-layout/issues/126
 
 ## Layout Engine Issue
 
