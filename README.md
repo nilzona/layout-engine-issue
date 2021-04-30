@@ -1,3 +1,7 @@
+# THIS ISSUE HAS BEEN FIXED
+
+in `single-spa-layout@v1.5.2`
+
 ## Layout Engine Issue
 
 This is a a micro frontend application using single-spa showing an issue with single-spa-layout-engine
